@@ -49,10 +49,9 @@ Expected behavior:
 | Defended assistant | Detects and blocks the prompt injection |
 
 
-```md
+
 ![Prompt injection detector result](screenshots/demo1.png)
 ![Vulnerable vs defended output](screenshots/demo2.png)
-```
 
 ---
 
@@ -86,10 +85,10 @@ Current result on the small benchmark:
 This is a small educational benchmark, not a guarantee of real-world robustness. Prompt injection is adversarial, and real systems need multiple layers of protection.
 
 
-```md
+
 ![Evaluation summary](screenshots/evalu1.png)
 ![Evaluation table](screenshots/evalu2.png)
-```
+
 
 ---
 
