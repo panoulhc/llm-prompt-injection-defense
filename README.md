@@ -219,7 +219,7 @@ llm-prompt-injection-defense/
 Clone the repo:
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/llm-prompt-injection-defense.git
+git clone https://github.com/panoulhc/llm-prompt-injection-defense.git
 cd llm-prompt-injection-defense
 ```
 
@@ -245,28 +245,11 @@ python3 -m pip install -r requirements.txt
 
 ## 🔐 Environment Variables
 
-Create a local `.env` file:
-
-```bash
-cp .env.example .env
-```
-
-Inside `.env`, add your Anthropic API key:
-
-```env
-ANTHROPIC_API_KEY=sk-ant-your-real-key-here
-CLAUDE_MODEL=claude-sonnet-4-5
-MOCK_MODE=false
-```
-
-Never commit your real `.env` file.
-
 The `.env.example` file should contain only placeholders:
 
 ```env
 ANTHROPIC_API_KEY=your_api_key_here
 CLAUDE_MODEL=claude-sonnet-4-5
-MOCK_MODE=true
 ```
 
 ---
